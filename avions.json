@@ -1,0 +1,149 @@
+[
+    {
+        "modele": "Boeing 737",
+        "constructeur": "Boeing",
+        "capacite_passagers": 189,
+        "en_service_depuis": 1968,
+        "vitesse_max": 876,
+        "compagnie_principale": "Southwest Airlines"
+    },
+    {
+        "modele": "Airbus A320",
+        "constructeur": "Airbus",
+        "capacite_passagers": 180,
+        "vitesse_max": 871,
+        "portee_km": 6100,
+        "moteurs": [
+            {
+                "type": "CFM56",
+                "fabricant": "CFM International"
+            }
+        ]
+    },
+    {
+        "modele": "Concorde",
+        "constructeur": ["Aérospatiale", "British Aircraft Corporation"],
+        "capacite_passagers": 92,
+        "vitesse_max": 2179,
+        "retire_du_service": 2003,
+        "vols_phares": ["Paris - New York", "Londres - New York"],
+        "portee_km": 7250
+    },
+    {
+        "modele": "Lockheed Martin F-22 Raptor",
+        "constructeur": "Lockheed Martin",
+        "type": "Avion de chasse",
+        "vitesse_max": 2410,
+        "premier_vol": "1997-09-07",
+        "armement": {
+            "canons": "M61 Vulcan",
+            "missiles": ["AIM-9 Sidewinder", "AIM-120 AMRAAM"]
+        },
+        "technologies_avancees": true
+    },
+    {
+        "modele": "Cessna 172",
+        "constructeur": "Cessna",
+        "type": "Avion léger",
+        "capacite_passagers": 4,
+        "premier_vol": 1955,
+        "vitesse_max": 226,
+        "utilisations": ["école de pilotage", "vols privés"],
+        "moteur": {
+            "type": "Lycoming O-320",
+            "puissance_cv": 160
+        }
+    },
+    {
+        "modele": "Airbus A380",
+        "constructeur": "Airbus",
+        "capacite_passagers": 555,
+        "vitesse_max": 1020,
+        "etages": 2,
+        "compagnies": ["Emirates", "Singapore Airlines", "British Airways"],
+        "longueur_m": 72.7,
+        "hauteur_m": 24.1
+    },
+    {
+        "modele": "Boeing 747",
+        "constructeur": "Boeing",
+        "capacite_passagers": 416,
+        "vitesse_max": 988,
+        "portee_km": 13850,
+        "compartiment_cargo": true
+    },
+    {
+        "modele": "Dassault Rafale",
+        "constructeur": "Dassault Aviation",
+        "type": "Avion de chasse",
+        "vitesse_max": 1912,
+        "premier_vol": "1986-07-04",
+        "armement": {
+            "canons": "GIAT 30",
+            "missiles": ["MICA", "Meteor"]
+        }
+    },
+    {
+        "modele": "Sukhoi Su-57",
+        "constructeur": "Sukhoi",
+        "type": "Avion de chasse",
+        "vitesse_max": 2600,
+        "premier_vol": "2010-01-29",
+        "technologies_avancees": true,
+        "pays": "Russie"
+    },
+    {
+        "modele": "Piper PA-28",
+        "constructeur": "Piper Aircraft",
+        "type": "Avion léger",
+        "capacite_passagers": 4,
+        "premier_vol": 1960,
+        "vitesse_max": 235,
+        "utilisations": ["école de pilotage", "vols privés"]
+    },
+    {
+        "modele": "Boeing 787 Dreamliner",
+        "constructeur": "Boeing",
+        "capacite_passagers": 296,
+        "vitesse_max": 913,
+        "portee_km": 14140,
+        "caracteristiques": {
+            "materiaux_composites": true,
+            "consommation_reduite": true
+        }
+    },
+    {
+        "modele": "Lockheed C-130 Hercules",
+        "constructeur": "Lockheed Martin",
+        "type": "Avion de transport militaire",
+        "capacite_cargo": "21 tonnes",
+        "vitesse_max": 540,
+        "premier_vol": 1954,
+        "utilisations": ["transport de troupes", "missions humanitaires"]
+    },
+    {
+        "modele": "Airbus A350",
+        "constructeur": "Airbus",
+        "capacite_passagers": 440,
+        "vitesse_max": 945,
+        "portee_km": 18000,
+        "compagnies": ["Qatar Airways", "Lufthansa", "Singapore Airlines"]
+    },
+    {
+        "modele": "Fokker 100",
+        "constructeur": "Fokker",
+        "capacite_passagers": 122,
+        "vitesse_max": 845,
+        "portee_km": 3175,
+        "retire_du_service": 2017,
+        "pays_d_origine": "Pays-Bas"
+    },
+    {
+        "modele": "Bombardier CRJ900",
+        "constructeur": "Bombardier",
+        "capacite_passagers": 90,
+        "vitesse_max": 850,
+        "portee_km": 2835,
+        "compagnies": ["Delta Connection", "Lufthansa CityLine", "Air Nostrum"]
+    }
+]
